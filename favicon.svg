@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#f6f2ea"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#1c2b33" stroke-width="2"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#a85a37" stroke-width="2"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1c2b33">MRG</text>
+</svg>

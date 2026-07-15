@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dirección, teléfono, horario y formulario de contacto de Diagnósticos Clínicos MRG.">
+<title>Contactos · Diagnósticos Clínicos MRG</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <div class="monogram"><span>MRG</span></div>
+      <div class="brand-text">
+        <strong>Diagnósticos Clínicos MRG</strong>
+        <span>Medicina General</span>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="fundador.html">Fundador</a></li>
+        <li><a href="valores.html">Valores</a></li>
+        <li><a href="contactos.html" class="active">Contactos</a></li>
+      </ul>
+    </nav>
+    <a href="contactos.html" class="nav-cta">Agendar cita</a>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contactos</span>
+      <h1>Agenda tu consulta</h1>
+      <p class="lead">Escríbenos o visítanos en nuestro horario de atención. Con gusto resolveremos tus dudas antes de tu primera consulta.</p>
+    </div>
+  </section>
+
+  <section style="border-top:none;">
+    <div class="container">
+      <div class="contacto-grid">
+        <div class="contacto-info reveal">
+          <dl>
+            <div class="row">
+              <dt>Dirección</dt>
+              <dd><strong>Av. Principal N.º 123</strong>Santo Domingo Este, República Dominicana</dd>
+            </div>
+            <div class="row">
+              <dt>Teléfono</dt>
+              <dd><strong>(809) 555-0147</strong>Llamadas y WhatsApp</dd>
+            </div>
+            <div class="row">
+              <dt>Correo</dt>
+              <dd><strong>contacto@diagnosticosmrg.com</strong>Respuesta en 24 horas hábiles</dd>
+            </div>
+            <div class="row">
+              <dt>Horario</dt>
+              <dd><strong>Lunes a viernes, 8:00 a.m. – 5:00 p.m.</strong>Sábados, 8:00 a.m. – 12:00 p.m.</dd>
+            </div>
+          </dl>
+          <div class="map-visual">
+            <svg viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M10 120 Q50 40 100 90 T190 60" />
+              <circle cx="100" cy="90" r="4" fill="currentColor" stroke="none"/>
+              <path d="M100 60c0-10 8-18 18-18s18 8 18 18c0 14-18 30-18 30s-18-16-18-30Z"/>
+            </svg>
+          </div>
+        </div>
+        <form class="reveal" id="contactForm">
+          <div class="field">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" required>
+          </div>
+          <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" required>
+          </div>
+          <div class="field">
+            <label for="motivo">Motivo de la consulta</label>
+            <textarea id="motivo" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Solicitar cita</button>
+          <p class="form-note">Nos pondremos en contacto contigo para confirmar fecha y hora disponibles.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="brand">
+      <div class="monogram"><span>MRG</span></div>
+      <div class="brand-text">
+        <strong>Diagnósticos Clínicos MRG</strong>
+        <span>© 2026 · Todos los derechos reservados</span>
+      </div>
+    </div>
+    <div class="foot-links">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contactos.html">Contactos</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
